@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4F09DB31DAF669400026BB2 /* QRCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F09DB31DAF669400026BB2 /* QRCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = QRCodeReader.app; path = "/Users/pebblarmbp/Desktop/swift5-qrcode-scanner/build/Debug-iphoneos/QRCodeReader.app"; sourceTree = "<absolute>"; };
 		F4F09DB61DAF669400026BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4F09DBB1DAF669400026BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4F09DBD1DAF669400026BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,16 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				F4F09DB51DAF669400026BB2 /* QRCodeReader */,
-				F4F09DB41DAF669400026BB2 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		F4F09DB41DAF669400026BB2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F4F09DB31DAF669400026BB2 /* QRCodeReader.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F4F09DB51DAF669400026BB2 /* QRCodeReader */ = {
@@ -112,7 +103,7 @@
 				Base,
 			);
 			mainGroup = F4F09DAA1DAF669400026BB2;
-			productRefGroup = F4F09DB41DAF669400026BB2 /* Products */;
+			productRefGroup = F4F09DAA1DAF669400026BB2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
