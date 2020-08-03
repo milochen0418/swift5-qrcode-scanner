@@ -77,14 +77,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     }
     
     func metadataOutput(_ captureOutput: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
-        if metadataObjects == nil || metadataObjects.count == 0 {
-            qrcodeFrameView?.frame = CGRect.zero
-            messageLabel.text = "No QR/bar Code is Detected"
-            return
-        }
-        
         let metadataObj = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
-        
         if supportedCodeTypes.contains(metadataObj.type) {
             let barCodeObject = videoPreviewLayer?.transformedMetadataObject(for: metadataObj)
             qrcodeFrameView?.frame = barCodeObject!.bounds
