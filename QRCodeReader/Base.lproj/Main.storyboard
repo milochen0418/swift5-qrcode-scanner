@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196078431372551" green="0.36470588235294116" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="i2c-aZ-o7l" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="45F-Jb-Ypr"/>
                             <constraint firstItem="i2c-aZ-o7l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9gq-Qq-yWl"/>
