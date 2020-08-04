@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4F09DB31DAF669400026BB2 /* QRCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = QRCodeReader.app; path = "/Users/pebblarmbp/Desktop/swift5-qrcode-scanner/build/Debug-iphoneos/QRCodeReader.app"; sourceTree = "<absolute>"; };
+		7F4ABB0424D8880E00F45F26 /* Code Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F09DB61DAF669400026BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4F09DBB1DAF669400026BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4F09DBD1DAF669400026BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				F4F09DB51DAF669400026BB2 /* QRCodeReader */,
+				7F4ABB0424D8880E00F45F26 /* Code Scanner.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +76,7 @@
 			);
 			name = QRCodeReader;
 			productName = QRCodeReader;
-			productReference = F4F09DB31DAF669400026BB2 /* QRCodeReader.app */;
+			productReference = 7F4ABB0424D8880E00F45F26 /* Code Scanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -281,8 +282,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hopsken.QRCodeReader;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.milochen0418.codescanner;
+				PRODUCT_NAME = "Code Scanner";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -299,8 +300,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hopsken.QRCodeReader;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.milochen0418.codescanner;
+				PRODUCT_NAME = "Code Scanner";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
