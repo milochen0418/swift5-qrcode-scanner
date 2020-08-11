@@ -28,5 +28,12 @@ class QRCodeViewController: UIViewController {
     @IBAction func unwindToHomeScreen(segue: UIStoryboardSegue) {
         dismiss(animated: true, completion: nil)
     }
+    func showScanDataCopiedDoneAlert(copydata: String) {
+        let refreshAlert = UIAlertController(title: "Copied Done", message: copydata, preferredStyle: UIAlertController.Style.alert)
+        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            print("Click Ok to leave copied done message box")
+        }))
+        present(refreshAlert, animated: true, completion: nil)
+    }
 
 }

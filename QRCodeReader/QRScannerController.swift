@@ -91,17 +91,14 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             if metadataObj.stringValue != nil {
                 let code = metadataObj.stringValue!
                 messageLabel.text = code
-                if (code.hasPrefix("http")) {
-                    openURL(code)
+                let pasteBoard = UIPasteboard.general
+                pasteBoard.string = code
+                if let vc: QRCodeViewController = self.presentingViewController as? QRCodeViewController {
+                    self.dismiss(animated: true, completion: {
+                        vc.showScanDataCopiedDoneAlert(copydata: code)
+                    })
                 }
-                
             }
         }
-
-    }
-    
-    func openURL(_ url:String){
-        let targetURL = URL(string: url)
-        UIApplication.shared.open(targetURL!, options: [:], completionHandler: nil)
     }
 }
