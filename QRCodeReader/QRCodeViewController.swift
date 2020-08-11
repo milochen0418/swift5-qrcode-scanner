@@ -12,7 +12,6 @@ class QRCodeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -29,7 +28,7 @@ class QRCodeViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     func showScanDataCopiedDoneAlert(copydata: String) {
-        let refreshAlert = UIAlertController(title: "Copied Done", message: copydata, preferredStyle: UIAlertController.Style.alert)
+        let refreshAlert = UIAlertController(title: "Copied done by scan", message: copydata, preferredStyle: UIAlertController.Style.alert)
         refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
             print("Click Ok to leave copied done message box")
         }))
