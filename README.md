@@ -7,6 +7,9 @@ I download it from https://github.com/Hopsken/DaysOfSwift/.
 Then I fixed the scanner source code to support swift 5 in 2020.  
 
 Right now, the code can support for barcode scanner and QRCode scanner together. 
+# Add features
+## Scan to copy
+Scan QRCode or Barcode and then you can paste data on Mac OS X application or any iOS app.  
 
 # App Store
 The code is release on App Store.  
